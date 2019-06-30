@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>webrtc get device demo</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div>
+			<label class="lbl_left">音频输入设备：</label>
+			<select id="audioInput" class="sel_device"></select>
+		</div>
+		<div>
+			<label class="lbl_left">音频输出设备：</label>
+			<select id="audioOutput" class="sel_device"></select>
+		</div>
+		<div>
+			<label class="lbl_left">视频输入设备：</label>
+			<select id="videoInput" class="sel_device"></select>
+		</div>
+
+		<video id="video" playsinline autoplay></video>
+
+		<br/>
+
+		<textarea id="videoContraints" cols="50" rows="13"></textarea>
+		<textarea id="audioContraints" cols="50" rows="13"></textarea>
+		<textarea id="supportedContraints" cols="50" rows="13"></textarea>
+
+		<!-- <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script> -->
+		<script src="js/adapter-latest.js" type="text/javascript"></script>
+		<script src="js/01_check_camera.js" type="text/javascript"></script>
+    </body>
+</html>

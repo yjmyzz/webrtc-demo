@@ -1,0 +1,14 @@
+div{
+    line-height: 30px;
+}
+label.lbl_left{
+    width:150px;
+    display:inline-block;
+    text-align:right;
+}
+select.sel_device{
+    width:250px;
+}
+video{
+    margin:20px 0 0 40px;
+}
